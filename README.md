@@ -4,8 +4,6 @@
 The purpose of this application is to provide a GUI based scheduling desktop application.
 
 ### Author Information
-name: Cody Grosskopf  
-email: cgros22@wgu.edu  
 application version: 1.0  
 date: 12/27/2021
 
