@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="252.0" prefWidth="239.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainScreenController">
+   <children>
+      <Label layoutX="14.0" layoutY="11.0" prefHeight="232.0" prefWidth="209.0" style="-fx-border-color: black; -fx-padding: 10; -fx-border-radius: 5;" />
+      <Label layoutX="27.0" layoutY="20.0" prefHeight="28.0" prefWidth="209.0" text="Main Menu">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="mainMenuCustomerClick" layoutX="70.0" layoutY="115.0" mnemonicParsing="false" onAction="#mainMenuCustomerClick" text="Customer" />
+      <Button fx:id="mainMenuAppointmentClick" layoutX="69.0" layoutY="76.0" mnemonicParsing="false" onAction="#mainMenuAppointmentClick" text="Appointments" />
+      <Button fx:id="mainMenuReportsClick" layoutX="68.0" layoutY="154.0" mnemonicParsing="false" onAction="#mainMenuReportsClick" text="Reports" />
+      <Button fx:id="mainMenuExitClick" layoutX="69.0" layoutY="192.0" mnemonicParsing="false" onAction="#mainMenuExitClick" text="Exit" />
+   </children>
+</AnchorPane>

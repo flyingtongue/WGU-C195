@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="306.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.loginScreen">
+   <children>
+      <Label layoutX="8.0" layoutY="15.0" prefHeight="286.0" prefWidth="321.0" style="-fx-border-color: black; -fx-padding: 10; -fx-border-radius: 5;" />
+      <TextField fx:id="loginScreenUsername" layoutX="130.0" layoutY="77.0" />
+      <TextField fx:id="loginScreenPassword" layoutX="132.0" layoutY="113.0" />
+      <Label fx:id="loginField" layoutX="81.0" layoutY="35.0" text="Login" />
+      <Button fx:id="loginButton" layoutX="54.0" layoutY="158.0" mnemonicParsing="false" onAction="#loginButton" text="Login" />
+      <Button fx:id="cancelButtonField" layoutX="192.0" layoutY="158.0" mnemonicParsing="false" onAction="#cancelButton" text="Exit" />
+      <Label fx:id="locationText" layoutX="18.0" layoutY="214.0" text="Location" />
+      <Label fx:id="usernameField" layoutX="29.0" layoutY="82.0" text="Username" />
+      <Label fx:id="passwordField" layoutX="28.0" layoutY="118.0" text="Password" />
+      <TextField fx:id="loginScreenLocationField" editable="false" layoutX="79.0" layoutY="210.0" prefHeight="26.0" prefWidth="176.0" style="-fx-background-color: white;" />
+   </children>
+</AnchorPane>

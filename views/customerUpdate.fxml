@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="317.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/11" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="5.0" layoutY="8.0" prefHeight="302.0" prefWidth="526.0" style="-fx-border-color: black; -fx-padding: 10; -fx-border-radius: 5;" />
+      <Label layoutX="23.0" layoutY="23.0" prefHeight="28.0" prefWidth="186.0" text="Update Customer Record">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="65.0" prefHeight="28.0" prefWidth="71.0" text="Customer ID" />
+      <TextField layoutX="168.0" layoutY="66.0" />
+      <Label layoutX="30.0" layoutY="93.0" prefHeight="28.0" prefWidth="90.0" text="Customer Name" />
+      <TextField layoutX="167.0" layoutY="97.0" prefHeight="26.0" prefWidth="204.0" />
+      <Label layoutX="16.0" layoutY="124.0" prefHeight="28.0" prefWidth="105.0" text="Customer Address" />
+      <TextField layoutX="168.0" layoutY="128.0" prefHeight="26.0" prefWidth="336.0" />
+      <Label layoutX="13.0" layoutY="160.0" prefHeight="28.0" prefWidth="130.0" text="Customer Postal Code" />
+      <TextField layoutX="168.0" layoutY="161.0" prefHeight="26.0" prefWidth="71.0" />
+      <TextField layoutX="360.0" layoutY="161.0" prefHeight="26.0" prefWidth="146.0" />
+      <ComboBox layoutX="146.0" layoutY="197.0" prefWidth="150.0" />
+      <Label layoutX="29.0" layoutY="196.0" prefHeight="28.0" prefWidth="105.0" text="Customer Country" />
+      <Label layoutX="318.0" layoutY="197.0" prefHeight="28.0" prefWidth="90.0" text="State/Province" />
+      <ComboBox layoutX="408.0" layoutY="197.0" prefHeight="26.0" prefWidth="100.0" />
+      <Label layoutX="263.0" layoutY="160.0" prefHeight="28.0" prefWidth="100.0" text="Customer Phone" />
+      <Button layoutX="397.0" layoutY="261.0" mnemonicParsing="false" text="Save" />
+      <Button fx:id="customerRecordsCancel" layoutX="452.0" layoutY="261.0" mnemonicParsing="false" onAction="#customerRecordsCancel" text="Cancel" />
+   </children>
+</AnchorPane>
